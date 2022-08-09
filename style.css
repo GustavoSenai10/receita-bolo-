@@ -14,14 +14,46 @@ header{
 }
 
 .logo{
-    height: 80px;
+    height: 100px;
     
 }
 main{
     height: 100px;
     background-color: blue;
 }
+.intro-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.titulo{
+    text-align: center;
+    width: 800px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 48px;
+    text-align: center;
+}
+.sub-titulo{
 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}        
+.info{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.info span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 900;
+}
+.foto-bolo{
+
+width: 800px;
+border: lawngreen;
+}
 footer{
     height: 100px;
     
